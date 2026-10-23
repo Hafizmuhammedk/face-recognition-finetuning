@@ -1,0 +1,26 @@
+{
+  "test_images": 4418,
+  "images_without_usable_face": 0,
+  "closed_set": {
+    "images": 4418,
+    "accuracy": 0.9139882299683114,
+    "macro_f1": 0.884750577644249
+  },
+  "closed_set_by_quality": {
+    "high_quality": {
+      "images": 862,
+      "accuracy": 0.9907192575406032,
+      "macro_f1": 0.9846491175322061
+    },
+    "low_quality": {
+      "images": 3556,
+      "accuracy": 0.8953880764904387,
+      "macro_f1": 0.841592178894566
+    }
+  },
+  "with_rejection_accuracy": 0.9139882299683114,
+  "rejected_as_unknown": 0,
+  "accuracy_on_accepted": 0.9139882299683114,
+  "neighbors": 15,
+  "unknown_threshold": 0.5397624373435974
+}

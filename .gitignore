@@ -1,0 +1,16 @@
+# Confidential company images and everything derived from them
+data/
+captures/
+*.zip
+
+# Model weights, checkpoints and biometric embeddings
+models/
+checkpoints/
+outputs/embeddings/
+
+# Python and Jupyter
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.ruff_cache/

@@ -1,0 +1,42 @@
+[
+  {
+    "check": "Train/test manifests are disjoint",
+    "status": "passed",
+    "detail": "no shared source IDs, files, SHA-256 hashes or segments (6 overlap counts are all 0)"
+  },
+  {
+    "check": "No near-duplicates across train/test",
+    "status": "passed",
+    "detail": "highest train-to-test thumbnail similarity 0.94999; 0 training images at or above 0.95"
+  },
+  {
+    "check": "data/train and data/test share no files",
+    "status": "passed",
+    "detail": "15428 train and 4418 test files, no file content in both"
+  },
+  {
+    "check": "best_model.pt trained without test data",
+    "status": "passed",
+    "detail": "fine-tuned on 13143 training-subset images (epoch 8); no validation or test images"
+  },
+  {
+    "check": "final_model.pt trained without test data",
+    "status": "passed",
+    "detail": "fine-tuned on 13143 training-subset images (epoch 10); no validation or test images"
+  },
+  {
+    "check": "KNN gallery and threshold exclude test data",
+    "status": "passed",
+    "detail": "gallery of 13143 training images; threshold from validation pairs; matches best_model.pt"
+  },
+  {
+    "check": "Pair manifests stay within their subsets",
+    "status": "passed",
+    "detail": "7922 test pairs use only test images; 3911 threshold-calibration pairs use only validation images"
+  },
+  {
+    "check": "Baseline and final use one fixed protocol",
+    "status": "passed",
+    "detail": "2 evaluation(s) used the same test pairs and validation-calibrated thresholds"
+  }
+]

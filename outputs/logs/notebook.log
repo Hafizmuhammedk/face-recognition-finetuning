@@ -1,0 +1,41 @@
+2026-10-22 23:35:07 [info     ] dataset_scanned                  [src.dataset] identities=8 images=22286 unreadable=154
+2026-10-22 23:35:07 [info     ] exclusions_marked                [src.dataset] exact_duplicate=178 unreadable=154
+2026-10-22 23:35:27 [info     ] dataset_split_complete           [src.dataset] excluded=2440 test=4418 train=13143 validation=2285
+2026-10-22 23:36:12 [info     ] split_copied                     [src.dataset] folder=C:\Users\hafiz\face-recognition-project\data\train images=15428
+2026-10-22 23:36:25 [info     ] split_copied                     [src.dataset] folder=C:\Users\hafiz\face-recognition-project\data\test images=4418
+2026-10-22 23:36:25 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-22 23:36:26 [info     ] manifests_saved                  [src.dataset] directory=C:\Users\hafiz\face-recognition-project\data\manifests
+2026-10-23 00:25:07 [info     ] dataset_scanned                  [src.dataset] identities=8 images=22286 unreadable=154
+2026-10-23 00:25:07 [info     ] exclusions_marked                [src.dataset] exact_duplicate=178 unreadable=154
+2026-10-23 00:25:16 [info     ] dataset_split_complete           [src.dataset] excluded=2440 test=4418 train=13143 validation=2285
+2026-10-23 00:34:28 [info     ] split_copied                     [src.dataset] folder=C:\Users\hafiz\face-recognition-project\data\train images=15428
+2026-10-23 00:35:04 [info     ] split_copied                     [src.dataset] folder=C:\Users\hafiz\face-recognition-project\data\test images=4418
+2026-10-23 00:35:05 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 00:35:06 [info     ] manifests_saved                  [src.dataset] directory=C:\Users\hafiz\face-recognition-project\data\manifests
+2026-10-23 00:35:52 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 00:42:09 [info     ] pretrained_validation            [src.training] validation_accuracy=0.7116 validation_loss=7.8032 validation_roc_auc=0.6586
+2026-10-23 00:43:53 [info     ] training_epoch_complete          [src.training] epoch=1 learning_rate=0.0001 seconds=102.98877 train_accuracy=0.81021 train_loss=3.105 validation_accuracy=0.81882 validation_loss=2.83523 validation_roc_auc=0.91188
+2026-10-23 11:08:31 [info     ] dataset_scanned                  [src.dataset] identities=8 images=22286 unreadable=154
+2026-10-23 11:08:32 [info     ] exclusions_marked                [src.dataset] exact_duplicate=178 unreadable=154
+2026-10-23 11:09:08 [info     ] dataset_split_complete           [src.dataset] excluded=2440 test=4418 train=13143 validation=2285
+2026-10-23 11:23:24 [info     ] split_copied                     [src.dataset] folder=C:\Users\hafiz\face-recognition-project\data\train images=15428
+2026-10-23 11:24:17 [info     ] split_copied                     [src.dataset] folder=C:\Users\hafiz\face-recognition-project\data\test images=4418
+2026-10-23 11:24:17 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 11:24:18 [info     ] manifests_saved                  [src.dataset] directory=C:\Users\hafiz\face-recognition-project\data\manifests
+2026-10-23 11:25:33 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 11:36:33 [info     ] pretrained_validation            [src.training] validation_accuracy=0.7116 validation_loss=7.8032 validation_roc_auc=0.6586
+2026-10-23 11:38:16 [info     ] training_epoch_complete          [src.training] epoch=1 learning_rate=0.0001 seconds=102.35227 train_accuracy=0.81021 train_loss=3.105 validation_accuracy=0.81882 validation_loss=2.83523 validation_roc_auc=0.91188
+2026-10-23 11:39:33 [info     ] training_epoch_complete          [src.training] epoch=2 learning_rate=0.0001 seconds=77.1149 train_accuracy=0.9221 train_loss=1.33431 validation_accuracy=0.88228 validation_loss=1.9476 validation_roc_auc=0.95184
+2026-10-23 11:41:01 [info     ] training_epoch_complete          [src.training] epoch=3 learning_rate=9e-05 seconds=87.67095 train_accuracy=0.94886 train_loss=0.9188 validation_accuracy=0.89103 validation_loss=1.84431 validation_roc_auc=0.95889
+2026-10-23 11:42:28 [info     ] training_epoch_complete          [src.training] epoch=4 learning_rate=8e-05 seconds=86.924 train_accuracy=0.96273 train_loss=0.65696 validation_accuracy=0.90372 validation_loss=1.67578 validation_roc_auc=0.96437
+2026-10-23 11:43:49 [info     ] training_epoch_complete          [src.training] epoch=5 learning_rate=7e-05 seconds=80.69546 train_accuracy=0.97706 train_loss=0.44425 validation_accuracy=0.90416 validation_loss=1.70254 validation_roc_auc=0.95542
+2026-10-23 11:45:12 [info     ] training_epoch_complete          [src.training] epoch=6 learning_rate=5e-05 seconds=82.7658 train_accuracy=0.98331 train_loss=0.33485 validation_accuracy=0.91247 validation_loss=1.52291 validation_roc_auc=0.96196
+2026-10-23 11:46:46 [info     ] training_epoch_complete          [src.training] epoch=7 learning_rate=3e-05 seconds=94.10885 train_accuracy=0.98834 train_loss=0.23011 validation_accuracy=0.91816 validation_loss=1.5186 validation_roc_auc=0.96631
+2026-10-23 11:48:19 [info     ] training_epoch_complete          [src.training] epoch=8 learning_rate=2e-05 seconds=92.2248 train_accuracy=0.99238 train_loss=0.17246 validation_accuracy=0.9116 validation_loss=1.52677 validation_roc_auc=0.96998
+2026-10-23 11:49:45 [info     ] training_epoch_complete          [src.training] epoch=9 learning_rate=1e-05 seconds=86.08076 train_accuracy=0.99329 train_loss=0.14696 validation_accuracy=0.9256 validation_loss=1.39906 validation_roc_auc=0.9675
+2026-10-23 11:51:14 [info     ] training_epoch_complete          [src.training] epoch=10 learning_rate=0.0 seconds=88.70256 train_accuracy=0.99405 train_loss=0.11686 validation_accuracy=0.92604 validation_loss=1.39753 validation_roc_auc=0.96738
+2026-10-23 11:52:56 [info     ] knn_neighbors_selected           [src.classifier] neighbors=15 validation_accuracy=0.9207877461706784
+2026-10-23 11:52:56 [info     ] knn_saved                        [src.classifier] gallery=13143 neighbors=15 path=C:\Users\hafiz\face-recognition-project\checkpoints\knn_classifier.joblib
+2026-10-23 11:52:57 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 11:54:10 [info     ] face_detection_complete          [src.detection] detected=2008 full_image_fallback=2410 images=4418
+2026-10-23 11:54:43 [info     ] recognition_complete             [src.inference] images=4418 predicted=4418 rejected_as_unknown=0

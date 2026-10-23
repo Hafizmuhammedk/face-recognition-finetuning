@@ -1,0 +1,18 @@
+2026-10-23 12:02:23 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 12:02:24 [info     ] face_detection_complete          [src.detection] detected=1 images=1
+2026-10-23 12:02:24 [info     ] recognition_complete             [src.inference] images=1 predicted=1 rejected_as_unknown=0
+2026-10-23 12:02:34 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 12:02:36 [info     ] face_detection_complete          [src.detection] detected=68 full_image_fallback=14 images=82
+2026-10-23 12:02:36 [info     ] recognition_complete             [src.inference] images=82 predicted=82 rejected_as_unknown=0
+2026-10-23 12:07:27 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 12:07:28 [info     ] face_detection_complete          [src.detection] detected=1 images=1
+2026-10-23 12:07:28 [info     ] recognition_complete             [src.inference] images=1 predicted=1 rejected_as_unknown=0
+2026-10-23 12:07:51 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 12:07:54 [info     ] face_detection_complete          [src.detection] detected=387 full_image_fallback=491 images=878
+2026-10-23 12:07:59 [info     ] recognition_complete             [src.inference] images=878 predicted=878 rejected_as_unknown=0
+2026-10-23 12:08:16 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 12:08:31 [info     ] face_detection_complete          [src.detection] detected=2008 full_image_fallback=2410 images=4418
+2026-10-23 12:08:52 [info     ] recognition_complete             [src.inference] images=4418 predicted=4418 rejected_as_unknown=0
+2026-10-23 12:22:36 [info     ] recognizer_loaded                [src.inference] checkpoint=best_model.pt checkpoint_epoch=8 neighbors=15 unknown_threshold=0.5398
+2026-10-23 12:22:38 [info     ] face_detection_complete          [src.detection] full_image_fallback=1 images=1
+2026-10-23 12:22:38 [info     ] recognition_complete             [src.inference] images=1 predicted=1 rejected_as_unknown=0

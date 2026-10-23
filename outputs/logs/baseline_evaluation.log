@@ -1,0 +1,8 @@
+2026-10-23 00:19:00 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 00:21:42 [info     ] face_detection_complete          [src.detection] detected=5923 full_image_fallback=7220 images=13143
+2026-10-23 00:22:05 [info     ] face_detection_complete          [src.detection] detected=1061 full_image_fallback=1224 images=2285
+2026-10-23 00:22:51 [info     ] face_detection_complete          [src.detection] detected=2008 full_image_fallback=2410 images=4418
+2026-10-23 00:24:22 [info     ] pairs_created                    [src.evaluation] pairs=3911 path=C:\Users\hafiz\face-recognition-project\data\manifests\validation_pairs.csv same_person=1956
+2026-10-23 00:24:23 [info     ] pairs_created                    [src.evaluation] pairs=7922 path=C:\Users\hafiz\face-recognition-project\data\manifests\test_pairs.csv same_person=3962
+2026-10-23 00:24:26 [info     ] knn_neighbors_selected           [src.classifier] neighbors=5 validation_accuracy=0.8192560175054705
+2026-10-23 00:24:27 [info     ] evaluation_complete              [src.evaluation] knn_accuracy=0.8345 model=baseline roc_auc=0.7108 verification_accuracy=0.6537

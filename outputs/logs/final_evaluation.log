@@ -1,0 +1,4 @@
+2026-10-23 11:59:48 [info     ] fine_tuned_model_loaded          [__main__] checkpoint=best_model.pt epoch=8
+2026-10-23 11:59:48 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 12:01:32 [info     ] knn_neighbors_selected           [src.classifier] neighbors=15 validation_accuracy=0.9207877461706784
+2026-10-23 12:01:34 [info     ] evaluation_complete              [src.evaluation] knn_accuracy=0.914 model=finetuned roc_auc=0.9732 verification_accuracy=0.9149

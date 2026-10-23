@@ -1,0 +1,19 @@
+# Install the CUDA build of PyTorch first (see README), then: pip install -r requirements.txt
+torch==2.12.0
+torchvision==0.27.0
+ultralytics==8.4.51
+onnx==1.23.2
+onnxruntime==1.31.0
+opencv-python==4.13.0.92
+numpy==2.4.6
+pandas==3.0.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+joblib==1.5.3
+structlog==25.5.0
+reportlab==5.0.1
+
+# Notebook
+ipykernel==7.2.0
+nbformat==5.10.4
+nbconvert==7.16.6

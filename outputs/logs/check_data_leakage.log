@@ -1,0 +1,9 @@
+2026-10-23 12:01:48 [info     ] split_verified                   [src.dataset] test=4418 train=15428
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='Train/test manifests are disjoint' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='No near-duplicates across train/test' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='data/train and data/test share no files' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='best_model.pt trained without test data' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='final_model.pt trained without test data' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='KNN gallery and threshold exclude test data' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='Pair manifests stay within their subsets' status=passed
+2026-10-23 12:02:08 [info     ] integrity_check                  [__main__] check='Baseline and final use one fixed protocol' status=passed
